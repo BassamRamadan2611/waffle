@@ -1,0 +1,69 @@
+/*Start Footer*/
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  background-color: #ffff;
+  color: #3bb3c7;
+}
+
+footer .map iframe {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding-right: 60px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.icn-phone1
+{
+    background-color: #f9b45e;
+    width: 50px;
+    height: 50px;
+}
+
+.icn-phone
+{
+    background-color: #f9b45e;
+    width: 35px;
+    height: 35px;
+}
+
+.icn-phone1 i ,  .icn-phone i
+{
+    color: #fff;
+}
+
+
+
+footer .copyright {
+  font-size: 20px;
+  font-family:" NexaSlab-Light" ;
+
+  padding-top: 50px;
+}
+footer .copyright a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #f9b45e;
+}
+
+p{
+  font-family:"NexaSlabBlack" ;
+  font-weight: lighter;
+}
+
+ul
+{
+  list-style: none;
+  display: flex;
+}
+
+ul li
+{
+  margin-right: 12px;
+}
+
+/*End Footer*/
+
+

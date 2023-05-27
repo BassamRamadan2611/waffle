@@ -1,0 +1,498 @@
+.color-brown
+{
+    color: #f9b45e;
+}
+
+.color-brown-light
+{
+    color: #fdc978;
+}
+
+.color-blue
+{
+    color: #3bb3c7;
+}
+
+.btn-brown
+{
+    background-color: #f9b45e;
+}
+
+.color-white
+{
+    color: #fff;
+}
+
+
+
+/* ********************************************* Section Home **************************************************** */
+
+#home
+{
+    position: relative;
+    height: 90vh;
+    background-color: #3bb3c7;
+  
+}
+
+.info .first{
+    color: #f9b45e;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family:"NexaSlabBlack" ;
+}
+.info .second{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 4.5rem;
+    padding: 20px;
+    font-family:"NexaSlabBlack" ;
+}
+
+.info .text1{
+    margin-top: 220px;
+    margin-bottom: 60px;
+}
+
+.imgs img
+{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    z-index: 99;
+}
+
+.pic0
+{
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    z-index: 9;
+}
+
+.w-80
+{
+    width: 82%;
+}
+
+
+/* ********************************************* Section About **************************************************** */
+
+#about
+{
+    margin-top: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+/*Start About us*/
+
+
+.about-us .title {
+    color: #3bb3c7;
+    font-size: 3rem;
+    padding: 20px 0;
+    font-weight: bold;
+    font-family:"NexaSlabBlack" ;
+}
+.about-us img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: contain;
+    padding: 20px;
+
+}
+.about-us p {
+    font-size: 25px;
+    color: #3bb3c7;
+    padding: 5px;
+    font-family:"NexaSlab-Bold" ;
+    line-height: 1.6;
+}
+    
+
+
+/* ********************************************* Section Products **************************************************** */
+
+#product h2
+{
+    font-weight: 900;
+    font-size: 50px;
+    font-family:"NexaSlabBlack" ;
+}
+
+.product-info
+{
+    border: 3px dashed#3bb3c7;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.product-info:hover
+{
+    border: 0px;
+    padding: 0px;
+}
+
+.product-info h3
+{
+    font-weight: 700;
+    font-size: 21px;
+    font-family:"NexaSlabBlack" ;
+
+}
+
+
+
+/* ********************************************* End Section Products **************************************************** */
+
+
+
+
+/* ********************************************* Section Four **************************************************** */
+
+
+#four
+{
+    background-color: #3bb3c7;
+    height: 100vh;
+}
+
+.text
+{
+    position:absolute;
+    top: 250px;
+    transform: rotate(90deg);
+}
+
+.text h3
+{
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family:"NexaSlab-Bold" ;
+    letter-spacing: 5px;
+}
+
+.imag
+{
+    position: absolute;
+    top: -150px;
+    left: 369px;
+    z-index: 99;
+}
+
+.pic01
+{
+    position: absolute;
+    width: 100%;
+    top: -17%;
+    z-index: 9;
+}
+
+.pic1
+{
+    position: absolute;
+    width: 100%;
+    bottom: -10%;
+    z-index: -1;
+}
+
+@media screen and (max-width:992px) {
+    .text
+{
+    position:absolute;
+    top: 400px;
+    left: 200px;
+    transform: rotate(360deg);
+}
+.text h3
+{
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family:"NexaSlab-Bold" ;
+    letter-spacing: 5px;
+}
+.imag
+{
+    position: absolute;
+    top: -150px;
+    left: 369px;
+    
+
+    justify-content: center;
+    
+    z-index: 99;
+}
+}
+
+@media screen and (max-width:767px) {
+    .text
+    {
+        position:absolute;
+        top: 400px;
+        left: 100px;
+        transform: rotate(360deg);
+    }
+.text h3
+{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:"NexaSlab-Bold" ;
+    letter-spacing: 5px;
+}
+}
+
+@media screen and (max-width:567px) {
+    .text
+    {
+        position:absolute;
+        top: 400px;
+        left: 100px;
+        transform: rotate(360deg);
+    }
+.text h3
+{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:"NexaSlab-Bold" ;
+    letter-spacing: 5px;
+}
+}
+@media screen and (max-width:480px) {
+
+    
+.text
+{
+    position:absolute;
+    top: 250px;
+    left: 20px;
+    transform: rotate(360deg);
+}
+
+.text h3
+{
+    margin-top: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:"NexaSlab-Bold" ;
+    letter-spacing: 3px;
+}
+}
+@media screen and (max-width:320) {
+
+    
+    .text
+    {
+        position:absolute;
+        top: 250px;
+        left: 20px;
+        transform: rotate(360deg);
+    }
+    
+    .text h3
+    {
+        margin-top: 100px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family:"NexaSlab-Bold" ;
+        letter-spacing: 3px;
+    }
+    }
+
+
+
+
+
+
+    
+
+
+/* ********************************************* End Section Four **************************************************** */
+
+
+
+
+
+/* ********************************************* Section Five **************************************************** */
+
+#five 
+{
+    position: relative;
+    z-index: 99;
+}
+
+#five h2
+{
+    font-weight: 900;
+    font-size: 50px;
+    font-family:"NexaSlabBlack" ;
+}
+
+
+
+
+
+
+/* ********************************************* End Section Five **************************************************** */
+
+
+
+
+/* ********************************************* End Section Six **************************************************** */
+
+
+#six
+{
+    background-color: #fdc978;
+    position: relative;
+}
+
+#six h1
+{
+    font-size: 140px;
+    font-weight: 900;
+    font-family:"NexaSlabBlack" ;
+    padding-left:90px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+
+.w-20
+{
+    width: 20%;
+}
+
+.txt
+{
+    position:absolute;
+    top: 900px;
+    right: -45px;
+    transform: rotate(90deg);
+    display: block;
+}
+
+.img-top
+{
+
+    right: 15%;
+}
+
+
+#six h2
+{
+    font-weight: 900;
+    font-size: 50px;
+    font-family:"NexaSlabBlack" ;
+    letter-spacing: 5px;
+}
+
+.col-txt
+{
+    padding-top: 60px;
+}
+
+.col-txt h2
+{
+    font-size: 70px;
+}
+
+.pic02
+{
+    position: absolute;
+    width: 100%;
+    top: -10%;
+    z-index: 9;
+}
+
+.pic2
+{
+    position: absolute;
+    width: 100%;
+    bottom: -3%;
+    z-index: -1;
+}
+@media screen and (max-width:992px) {
+    #six h1
+{
+    font-size: 100px;
+
+ 
+    
+ 
+}
+
+.txt
+{
+
+    display: none;
+
+}
+
+}
+@media screen and (max-width:776px) {
+    #six h1
+{
+    font-size: 70px;
+    padding-left:60px;
+    margin-top: 30px;
+ 
+}
+.txt
+{
+
+    display: none;
+}
+}
+@media screen and (max-width:576px) {
+    #six h1
+{
+    font-size: 50px;
+    padding-left:70px;
+    margin-top: 30px;
+ 
+}
+.txt
+{
+
+    display: none;
+}
+.col-txt h2
+{
+    font-size: 50px;
+}
+
+}
+@media screen and (max-width:480px) {
+    #six h1
+    {
+        font-size: 50px;
+        padding-left:70px;
+        margin-top: 30px;
+     
+    }
+    .col-txt h2
+{
+    font-size: 30px;
+}
+
+}
+@media screen and (max-width:320px) {
+    #six h1
+    {
+        font-size: 30px;
+        padding-left:10px;
+        margin-top: 30px;
+     
+    }
+    .col-txt h2
+{
+    font-size: 20px;
+}
+
+
+}
+/* ********************************************* End Section Six **************************************************** */

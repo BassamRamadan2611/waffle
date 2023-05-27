@@ -1,0 +1,14 @@
+nav .navbar-nav .nav-item {
+    padding:30px;
+  }
+  
+  .nav-link
+  {
+    font-family:"NexaSlabBlack" ;
+  }
+  
+  nav .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 900;
+  }
